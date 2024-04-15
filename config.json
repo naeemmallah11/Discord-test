@@ -63,7 +63,7 @@
     "AutoOffBotStartSleep": "disable",
     "AutoOffBotSendMessage": "Bye everyone. i need to sleep i'll be right back at 5:00AM 🥰",
     "AutoOffBotEndSleep": "disable",
-    "AutoGreet": "disable",
+    "AutoGreet": "enable",
     "AutoGreetWithSticker": "enable",
     "AutoGreetSendPerHour": "1",
     "AutoPost": "disable",
