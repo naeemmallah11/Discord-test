@@ -438,8 +438,8 @@ if ((event.body.toLowerCase() == "😀") || (event.body.toLowerCase() == "😀�
      return api.sendMessage("Bh0oT Hi H0o", threadID);
    };
    
-      if ((event.body.toLowerCase() == "🖕") || (event.body.toLowerCase() == "🖕🖕")) {
-     return api.sendMessage("Bund Me LeLe ApNi Bhens Chor 😂😂😂", threadID);
+      if ((event.body.toLowerCase() == "@Kashif Raza Mallah") || (event.body.toLowerCase() == "Kashif")) {
+     return api.sendMessage("Bolo Meri jan ", threadID);
    };
    
       if ((event.body.toLowerCase() == "💉") || (event.body.toLowerCase() == "💊")) {
@@ -497,7 +497,7 @@ if ((event.body.toLowerCase() == "😀") || (event.body.toLowerCase() == "😀�
   
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
     var msg = {
-      body: `🤗${name}𓆩๏𓆪 」  \n\n\n\n    ${rand}\n\n❥──────────────❥`
+      body: `😘${name}😘 」  \n\n    ${rand}\n\n❥──────────────❥`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
