@@ -1,4 +1,4 @@
-module.exports.config = {
+hi gyymodule.exports.config = {
     name: "anigirl",
     version: "1.0.0",
     hasPermssion: 0,
