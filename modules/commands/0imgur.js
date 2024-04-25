@@ -1,20 +1,26 @@
+const fs = require("fs");
 module.exports.config = {
-    name: "imgur",
-    version: "1.0.0",
-    hasPermssion: 0,
-    credits: "Deku",
-    description: "imgur upload",
-    commandCategory: "imgur",
-    usages: "[reply to image]",
-    cooldowns: 5
+	name: "arman",
+    version: "1.0.1",
+	hasPermssion: 0,
+	credits: "MrTomXxX", 
+	description: "hihihihi",
+	commandCategory: "no prefix",
+	usages: "tea",
+    cooldowns: 5, 
 };
- 
-module.exports.run = async ({ api, event }) => {
-const axios = require('axios');
-var link = event.messageReply.attachments[0].url || args.join(" ");
-    if(!link) return api.sendMessage('Please reply to image.', event.threadID, event.messageID)
-const res = await axios.get(`https://amir-api-3.security-10.repl.co/imgur?link=${encodeURIComponent(link)}`);    
-var result = res.data.uploaded.image;
-    return api.sendMessage(result, event.threadID, event.messageID);
- 
-}
+
+module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
+	var { threadID, messageID } = event;
+	if (event.body.indexOf("Bot")==0 || event.body.indexOf("boti")==0 || event.body.indexOf(".bot")==0 || event.body.indexOf("Botii")==0) {
+		var msg = {
+				body: "G aapi /Bhai 🙂",
+				
+			}
+			api.sendMessage(msg, threadID, messageID);
+    api.setMessageReaction("🍿", event.messageID, (err) => {}, true)
+		}
+	}
+	module.exports.run = function({ api, event, client, __GLOBAL }) {
+
+  }
