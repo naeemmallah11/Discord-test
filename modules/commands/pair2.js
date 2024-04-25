@@ -66,9 +66,9 @@ module.exports.run = async function ({ event, api, args }) {
   const fs = global.nodemodule["fs-extra"];
   const { threadID, messageID, senderID } = event;
   const mention = Object.keys(event.mentions);
-  if (!mention[0]) return api.sendMessage("যার সাথে ফ্রেম বানাতে চান তাকে মেনশন করুন", threadID, messageID);
+  if (!mention[0]) return api.sendMessage("Mention the person you want to frame with", threadID, messageID);
   else {
       const one = senderID, two = mention[0];
-      return makeImage({ one, two }).then(path => api.sendMessage({ body: "︵🦋🤍🍒\n\n\n___ღ༎-মন থেকে ভালোবেসে দেখো.!😻🥰\n\n___নির্দিষ্ট মানুষ ছাড়া আর অন্য কাউকে ভালো লাগবে না.!🖤😘\n\n\n︵🦋🤍🍒", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+      return makeImage({ one, two }).then(path => api.sendMessage({ body: "︵🦋🤍🍒\n\n\n___ღ༎-Love from the heart.!😻🥰\n\n___No one will like anyone except certain people.!🖤😘\n\n\n︵🦋🤍🍒", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
   }
     }
