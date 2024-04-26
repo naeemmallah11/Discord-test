@@ -12,7 +12,7 @@
     "fs-extra":"",
     "axios":""
   }
-    
+   
 };
 
 module.exports.run = async({api,event,args,Users,Threads,Currencies}) => {
@@ -23,7 +23,7 @@ const fs = global.nodemodule["fs-extra"];
 	 "https://i.imgur.com/uBVzoLu.jpg",
 "https://i.imgur.com/2SKrp2u.jpg",
 "https://i.imgur.com/eQScoB2.jpg",
-"https://i.imgur.com/sPTDj7J.jpg",
+"https://i.imgur.com/sPTDj7J.jpg", 
 "https://i.imgur.com/eKO5bbW.jpg",
 "https://i.imgur.com/OPoAuZz.jpg",
 "https://i.imgur.com/e8Hs2LK.jpg",
