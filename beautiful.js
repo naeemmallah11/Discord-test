@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "beautiful",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "John Lester",
+	creditsuwuw: "John Lester",
 	description: "beautiful",
 	commandCategory: "edit-img",
 	usages: "beautiful",
