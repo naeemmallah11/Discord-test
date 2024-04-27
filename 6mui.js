@@ -1,4 +1,4 @@
-module.exports.config = {
+hhmodule.exports.config = {
   name: "6mui",
   version: "1.0.0",
   hasPermssion: 0,
