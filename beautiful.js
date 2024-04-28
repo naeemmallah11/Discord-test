@@ -1,4 +1,4 @@
-module.exports.config = {
+Vicmodule.exports.config = {
 	name: "beautiful",
 	version: "1.0.0",
 	hasPermssion: 0,
